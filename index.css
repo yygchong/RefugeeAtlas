@@ -1,0 +1,139 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  overflow-x: hidden;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+#logo{
+    transform: scale(0.20, 0.20);
+    position: relative;
+    top: -10%;
+    left: 3.7%;
+    height: 90%;
+    width: 70%;
+    opacity: 1;
+    animation: fadeIn 4s ease;
+}
+#background{
+  background-image: url("Box1.png");
+  position: relative;
+  height: 2820px;
+  overflow: hidden;
+}
+
+#picture1{
+  transform: scale(0.1, 0.1);
+  top: 5%;
+  left: -15%;
+  position: relative;
+
+}
+
+#chart{
+  position: relative;
+  transform: scale(0.5, 0.5);
+  height: 40px;
+  width: auto;
+  top: -30em;
+  left: 20em;
+}
+
+#box1{
+  height: 720px;
+  width: 100%;
+  background-image: url("picture_globe.jpg");
+  background-size: cover;
+  background-attachment: absolute;
+}
+
+#box2{
+  height: 500px;
+  width: 100%;
+  background-image: url("Box5.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  position: relative;
+}
+
+#box3{
+  height: 850px;
+  width: 100%;
+  background-image: url("picture_city.jpg");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+
+#box_info{
+  height: 538px;
+    width: 43%;
+    background-image: url("Box3.png");
+    background-size: cover;
+    position: relative;
+    left: 40em;
+    top: -34.5em;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+
+}
+
+#box_info2{
+  height: 338px;
+    width: 25em;
+    background-image: url("Box3.png");
+    background-size: cover;
+    position: relative;
+    left: 51em;
+    top: -17.9em;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+
+}
+
+#box4{
+  height: 500px;
+  width: 100%;
+  background-image: url("Box5.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  position: relative;
+}
+
+#box5{
+  height: 500px;
+  width: 75%;
+  left: 7%;
+  background-image: url("Box3.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  position: relative;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+}
+
+#method{
+  position: relative;
+  top: 5em;
+  left: 3em;
+}
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

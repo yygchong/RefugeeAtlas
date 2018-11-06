@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+
+      <link rel="stylesheet" href="index.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style2.css">
+
+    <style type = "text/css">
+
+      html {
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+            }
+
+            @font-face {
+                        font-family: "SlimJoe";
+                        src: url(Slim_Joe.otf) format("opentype");
+                    }
+
+            h1{
+                font-size: 2.8em;
+                font-family: "SlimJoe";
+                color: #212121;
+                }
+            h2{
+                    font-size: 1em;
+                    font-family: "Arial";
+                    color: white;
+                    line-height: 2;
+                    }
+
+    </style>
+
+  </head>
+
+  <body>
+
+
+<div id = "background">
+
+  <div id = "box1">
+    <div id = "logo">
+      <img src="Logo_1.png" alt="Avatar" class="image">
+
+    </div>
+
+      <div id = "container">
+        <a href="#box2">
+          <div class="button">Begin </div>
+        </a>
+      </div>
+
+  </div>
+
+    <div id = "box2">
+      <h1>
+                  <p align="left">
+                  &nbsp&nbsp&nbsp  Purpose
+
+                  </p>
+
+                </h1>
+
+                <section id="skills" class="toad-fullscreen">
+               <article class="skills">
+                   <div class="t-6">
+                       <p>Jordan<span></span><span class="skills"></span></p>
+                   </div>
+                   <div class="t-6">
+                       <p>Turkey<span></span><span class="skills"></span></p>
+                   </div>
+
+                   <div class="t-6">
+                       <p>Pakistan<span></span><span class="skills"></span></p>
+                   </div>
+                   <div class="t-6">
+                       <p>Lebanon<span></span><span class="skills"></span></p>
+                   </div>
+
+                   <div class="t-6">
+                       <p>IranL<span></span><span class="skills"></span></p>
+                   </div>
+                   <div class="t-6">
+                       <p>Ethiopia<span></span><span class="skills"></span></p>
+                   </div>
+
+                   <div class="t-6">
+                       <p>Kenya<span></span><span class="skills"></span></p>
+                   </div>
+                   <div class="t-6">
+                       <p>Uganda<span></span><span class="skills"></span></p>
+                   </div>
+                   <div class="t-6">
+                       <p>Congo Republic<span></span><span class="skills"></span></p>
+                   </div>
+                   <div class="t-6">
+                       <p>Chad<span></span><span class="skills"></span></p>
+                   </div>
+               </article>
+           </section>
+
+           <div id = "box_info">
+             <h2>
+               A majority of the world’s refugees are disproportionately distributed to a small amount of geographical locations<sup>1</sup>. This is largely due factors such as geopolitical barriers and lack of facilitation from foreign governments. Heavy overpopulation of refugees into specific regions of the world cause economic and social problems in the countries that end up bearing the highest rates of emigration<sup>4</sup>. The list to the left depicts the 10 single countries who intake over half of the world’s refugees. We believe that we can use Artificial Intelligence with algorithms such as Markov Chains to predict the migration movements of displaced peoples based off of the variables, and use this predicative information to facilitate and prepare for large influxes of people<sup>2</sup>. This can significantly help surrounding countries that are overpopulated with refugees and help establish safer streamlined routes<sup>3</sup>.
+
+
+              We can apply this model to other displacement crises as well including natural disasters such as hurricanes and fires.
+
+           </h2>
+           </div>
+
+           <div id = "chart">
+           <img src="chart_1.png" alt="chart" class="image">
+         </div>
+
+      </div>
+
+      <div id = "box3">
+        <h1>
+                    <p align="left">
+                    &nbsp&nbsp&nbsp  Method
+
+                    </p>
+
+                  </h1>
+
+                  <div id = "method">
+                  <img src="picture_method.png" alt="chart" class="image" align = "center">
+                </div>
+
+                <div id = "box_info2">
+                  <h2>
+
+                Using a dataset provided by the UN Human Relief Agency we used a MCMC (Markov Chain Monte Carlo)Algorithm to predict what the likely probability that Country A will accept a refugee from Country B given they have a certain number of applicants. The way the MCMC algorithm does this is by sampling parameters for a logarithmic distribution multiple times until a distribution best fits the historical data provided. Using this distribution we can query the prediction results for Country A and Country B.
+
+              </h2>
+            </div>
+
+          
+
+      </div>
+
+
+</div>
+
+<div id = "box4">
+  <h1>
+              <p align="left">
+              &nbsp&nbsp&nbsp  Documentation
+
+              </p>
+
+            </h1>
+
+            <div id = "box5">
+            </br>
+        <sup>1</sup>Al Jazeera. (2016, October 04). Ten countries host half of world's refugees: Report. Retrieved from https://www.aljazeera.com/news/2016/10/ten-countries-host-world-refugees-report-161004042014076.html
+        </br></br></br>
+        <sup>2</sup>United Nations. (2017, July 31). UNHCR Refugee Data. Retrieved from https://www.kaggle.com/unitednations/refugee-data#_=_
+        </br></br></br>
+        <sup>3</sup>Morabia, A., & Benjamin, G. C. (2015, December). Retrieved from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4638237/
+        </br></br></br>
+        <sup>4</sup>United Nations. (n.d.). The role of host countries: The cost and impact of hosting refugees. Retrieved from http://www.unhcr.org/en-us/excom/standcom/4de4f7959/role-host-countries-cost-impact-hosting-refugees.html
+        </div>
+
+</div>
+
+
+
+
+  </body>
+
+<script  src="js/index.js"></script>
+
+</html>
